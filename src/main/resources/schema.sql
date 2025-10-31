@@ -1,7 +1,7 @@
 -- =============================
 -- ユーザー情報テーブル
 -- =============================
-DROP TABLE IF EXISTS users;
+-- DROP TABLE IF EXISTS users;
 
 CREATE TABLE users (
                        id INT AUTO_INCREMENT PRIMARY KEY,

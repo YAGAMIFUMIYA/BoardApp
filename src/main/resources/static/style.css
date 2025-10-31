@@ -87,3 +87,30 @@ body {
     from { opacity: 0; transform: translateY(15px); }
     to { opacity: 1; transform: translateY(0); }
 }
+/* 投稿フォームにも適用される全体デザイン */
+body {
+    background: linear-gradient(135deg, #f0f7ff, #f8f9fa);
+}
+
+/* フェードインアニメーション */
+.card {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ボタンのホバー効果 */
+.btn-primary {
+    transition: all 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #0d6efd;
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
+}
+
+.btn-outline-secondary:hover {
+    background-color: #e9ecef;
+}
