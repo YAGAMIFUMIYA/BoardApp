@@ -8,6 +8,7 @@
 <body>
 <h1>掲示板一覧</h1>
 <a href="/form">新規投稿</a>
+<a>ログアウトはこちら</a>
 <ul>
     <li th:each="post : ${posts}">
         <b th:text="${post.title}"></b> - <span th:text="${post.author}"></span>
